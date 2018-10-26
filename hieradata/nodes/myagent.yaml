@@ -1,0 +1,11 @@
+---
+profile::apache::apache_vhost_servers: {
+  'myagent': {
+    port: 80,
+    docroot: '/var/www/myagent'
+  },
+  'harsimransingh17022.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/harsimransingh17022'
+  }
+}
